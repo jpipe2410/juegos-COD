@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTROS</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="stylessFo.css">
+
+</head>
+<body>
+    <div class="navegacion">
+        <div class="logo">
+            <div class="icon"><ion-icon name="star-half-outline"></ion-icon>
+                </div>
+                <div class="namePa">JUAN</div>
+        </div>
+        <ul>
+            <li><a href="C:\xampp\htdocs\NUEVO_PROYECTO\index.html">INICIO</a></li>
+            <li><a href="formulario.html">REGISTROS</a></li>
+        </ul>
+      </div>
+      <div class="formulario">
+        <div>
+            <h1>
+                El registro necesesario para seguir
+            </h1>
+            <form action="#">
+                <table>
+                    <tr>
+                        <td><label for="nombre_User">Nombre de Usuario</label></td>
+                        <td><input type="text" name="Usuario" id="nombre_User"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">Correo Electronico</label></td>
+                        <td><input type="email" name="correo" id="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Pass">Contraseña</label></td>
+                        <td><input type="password" name="Clave" id="Pass"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="genero">Genero</label></td>
+                        <td>    
+                        <input type="radio" name="genero" value="femenino">Femenino <br>
+                        <input type="radio" name="genero" value="masculino">Masculino <br>
+                        <input type="radio" name="genero" value="otros">Otros <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="juegos">tus COD favoritos</label></td>
+                        <td>
+                            <select name="dulces">
+                                <option value="call of duty advance warfare">call of dutyadvance warfare</option>
+                                <option value="call of duty black ops" >call of duty black ops</option>
+                                <option value="call of duty black ops II">call of dutyblack ops II</option>
+                                <option value="call of duty infinity warfare">call of dutyinfinity warfare</option>
+                                <option value="call of duty modern warfare">call of dutymodern warfare</option>
+                                <option value="call of duty advanced warfare">call of duty advanced warfare</option>
+                                <option value="call of duty world at war">call of duty world at war</option>
+                              </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Comentario">Comentario</label></td>
+                        <td><textarea name="Comentario" rows="4" cols="40" value="Comentario">Deje su comentario aquí:</textarea></td>
+                    </tr>
+					<tr>
+                        <td><input type="submit" value="Registrar"></td>
+                        <td><input type="reset" value="Borrar"></td>
+						
+					</tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

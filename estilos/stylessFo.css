@@ -1,0 +1,96 @@
+:root{
+    --white: rgb(236, 201, 154);
+    --white2:rgb(44, 161, 136); 
+    --black:rgb(2, 2, 2);
+    --principal:rgb(2, 31, 20);
+    --second: rgb(218, 68, 23);
+    --black2:rgb(2, 2, 2);
+}
+
+
+.formulario{
+    width: 100%;
+    height: calc(100vh -60px);
+    top: 80px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario div{
+    position: relative;
+    height: 60%;
+    width: 600px;
+    background-color: rgb(85, 165, 99);
+    box-shadow: 1px 7px 20px rgba(0, 0, 0, .8);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.formulario div h1{
+    background-color: var(--principal);
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 5px 5px var(--black2);
+    color: var(--white2);
+    font-size: 1.75em;
+}
+
+.formulario div form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.formulario div form table{
+    height: 70%;
+    width: 80%;
+    margin-top: 25px;
+}
+
+.formulario div form table label{
+    font-weight: 400;
+    color: var(--black2);
+    font-size: 1.1em;
+}
+
+.formulario div form table input{
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid var(--black2);
+    line-height: 1.2em;
+    padding: 5px;
+    color: var(--principal);
+}
+
+.formulario div form table input[type=text],
+.formulario div form table input[type=email],
+.formulario div form table input[type=password]{
+    width: 90%;
+}
+
+.formulario div form table select{
+    padding: 8px;
+    border-radius: 35px;
+    color: var(--black2);
+    outline: #CC8D6B;
+}
+
+.formulario div form table input[type=submit],
+.formulario div form table input[type=reset]{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px;
+    }
+
+    .formulario div form table tr:last-child td{
+        padding-top: 12px;
+        text-align: center;
+    }
